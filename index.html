@@ -1,0 +1,543 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, initial-scale=1, maximum-scale=1">
+	<meta name="keywords" content="ホテル,リゾートホテル,沖縄">
+	<meta name="description" content="マリーナヒルズホテルはエメラルドブルーに輝く海を目の前に広々としたプールやアクティビティを楽しめる沖縄で人気のリゾートホテルです。">
+	<title>MARINA HILLS HOTEL</title>
+
+	<link rel="stylesheet" type="text/css" href="./css/slick.css" />
+	<link rel="stylesheet" type="text/css" href="./css/slick-theme.css" />
+	<link rel="stylesheet" type="text/css" href="./css/toppage.css">
+	<link rel="stylesheet" type="text/css" href="./css/common.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css">
+	<!-- google font -->
+	<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Noto+Serif+JP&display=swap"
+		rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Merriweather:wght@700&family=Noto+Serif+JP&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Karla&family=Noto+Serif+JP&display=swap"
+		rel="stylesheet">
+
+
+	<script src="https://kit.fontawesome.com/281776328e.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+	<header>
+		<div class="flex">
+			<div id="header-logo">
+				<a href="index.html">
+					<p class="logo">MARINA HILLS HOTEL</p>
+					<p class="sublogo">Resort&Spa OKINAWA</p>
+				</a>
+			</div>
+
+			<div id="header-right">
+				<div class="el_selectChevron">
+					<select name="setLang" id="setLang">
+						<option value="#">言語 / Language</option><i class="fas fa-language"></i>
+						<option value="#">English</option>
+						<option value="#">한국어</option>
+						<option value="#">簡体中文</option>
+						<option value="#">繁体中文</option>
+					</select>
+				</div>
+				<div id="header-sub">
+					<a href="#" id="membership">会員のご案内</a>
+					<a href="#" id="question">よくあるご質問</a>
+					<a href="#" id="reservation">空室検索</a>
+				</div>
+			</div>
+		</div>
+		<nav id="header-navigation">
+			<ul>
+				<li><a href="stay.html">宿泊</a></li>
+				<li><a href="restaurant.html">レストラン&バー</a></li>
+				<li><a href="wedding.html">ウエディング</a></li>
+				<li><a href="#">リラクゼーション</a></li>
+				<li><a href="#">アクセス</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<div id="top-wrapper_main">
+			<div class="anniversarylogo">
+				<img src="./images/toppageimg/white30logo.png" alt="30周年ロゴ">
+				<div class="top-image_main">
+					<div class="topimage01"></div>
+					<div class="topimage02"></div>
+					<div class="topimage03"></div>
+					<div class="topimage04"></div>
+				</div>
+			</div> 
+		</div>
+
+		<div id="reservation-wrapper">
+			<div class="tab_wrap">
+				<div class="tab_area">
+					<div class="tab active"><i class="fas fa-hotel"></i>宿泊</div>
+					<div class="tab"><i class="fas fa-plane"></i>航空券+宿泊</div>
+				</div>
+				<div class="panel_area">
+					<div class="panel active show panel01">
+						<div class="date">
+							<p>チェックイン日</p>
+							<br>
+							<label>
+								<input type="text" id="checkin-panel1" class="checkin">
+							</label>
+						</div>
+						<div class="stay">
+							<p>泊数</p>
+							<br>
+							<label>
+								<div class="stay-num-select menu01">
+									<select required name="stay_num">
+										<option value="1">1泊</option>
+										<option value="2">2泊</option>
+										<option value="3">3泊</option>
+										<option value="4">4泊</option>
+										<option value="5">5泊</option>
+										<option value="1">6泊</option>
+										<option value="1">7泊</option>
+									</select>
+								</div>
+							</label>
+						</div>
+						<div class="people">
+							<p>１室の人数</p>
+							<br>
+							<label>
+								<select name="people_num">
+									<option value="1">1名</option>
+									<option value="2">2名</option>
+									<option value="3">3名</option>
+									<option value="4">4名</option>
+									<option value="5">5名</option>
+									<option value="6">6名</option>
+									<option value="7">7名</option>
+									<option value="8">8名</option>
+									<option value="9">9名</option>
+									<option value="10">10名</option>
+								</select>
+							</label>
+						</div>
+						<div class="room">
+							<p>室数</p>
+							<br>
+							<label>
+								<select name="room_num">
+									<option value="1">1室</option>
+									<option value="2">2室</option>
+									<option value="3">3室</option>
+									<option value="4">4室</option>
+									<option value="5">5室</option>
+								</select>
+							</label>
+						</div>
+						<div class="search_btn">
+							<label>
+								<input type="submit" value="この条件で検索">
+							</label>
+							<p class="change_lnk">
+								<a href="#">ご予約内容の確認・変更・キャンセル</a>
+							</p>
+						</div>
+					</div>
+					<div class="panel panel02">
+						<div class="tourlist-menu airport-box">
+							<p>出発空港</p>
+							<div class="select">
+								<select>
+									<option disabled="disabled" value="ID01">■■■■■主要空港■■■■■</option>
+									<option selected="selected" value="TYO">東京(羽田・成田)</option>
+									<option value="OSA">大阪(伊丹・関西・神戸)</option>
+									<option value="HND">羽田空港</option>
+									<option value="NRT">成田国際空港</option>
+									<option value="NGO">中部国際空港</option>
+									<option value="ITM">伊丹空港</option>
+									<option value="KIX">関西国際空港</option>
+									<option value="FUK">福岡空港</option>
+									<option value="CTS">新千歳空港</option>
+									<option value="OKA">那覇空港</option>
+									<option disabled="disabled" value="ID02">■■■■■北海道■■■■■■</option>
+									<option value="CTS">新千歳空港</option>
+									<option value="OKD">札幌丘珠空港</option>
+									<option value="AKJ">旭川空港</option>
+									<option value="OBO">帯広空港</option>
+									<option value="KUH">釧路空港</option>
+									<option value="HKD">函館空港</option>
+									<option value="WKJ">稚内空港</option>
+									<option value="SHB">中標津空港</option>
+									<option value="MMB">女満別空港</option>
+									<option value="MBE">紋別空港</option>
+									<option value="RIS">利尻空港</option>
+									<option value="OIR">奥尻空港</option>
+									<option disabled="disabled" value="ID03">■■■■■東北■■■■■</option>
+									<option value="AOJ">青森空港</option>
+									<option value="MSJ">三沢空港</option>
+									<option value="HNA">花巻空港</option>
+									<option value="SDJ">仙台空港</option>
+									<option value="SYO">庄内空港</option>
+									<option value="AXT">秋田空港</option>
+									<option value="ONJ">大館能代空港</option>
+									<option value="GAJ">山形空港</option>
+									<option value="FKS">福島空港</option>
+									<option disabled="disabled" value="ID04">■■■■■関東■■■■■</option>
+									<option value="TYO">東京(羽田・成田)</option>
+									<option value="HND">羽田空港</option>
+									<option value="NRT">成田国際空港</option>
+									<option value="OIM">大島空港</option>
+									<option value="HAC">八丈島空港</option>
+									<option value="MYE">三宅島空港</option>
+									<option value="IBR">茨城空港</option>
+									<option disabled="disabled" value="ID05">■■■■■中部■■■■■</option>
+									<option value="NGO">中部国際空港</option>
+									<option value="NKM">小牧空港</option>
+									<option value="KMQ">小松空港</option>
+									<option value="KIJ">新潟空港</option>
+									<option value="TOY">富山空港</option>
+									<option value="FSZ">静岡空港</option>
+									<option value="NTQ">能登空港</option>
+									<option value="MMJ">まつもと空港</option>
+									<option disabled="disabled" value="ID06">■■■■■近畿■■■■■</option>
+									<option value="OSA">大阪(伊丹・関西・神戸)</option>
+									<option value="ITM">伊丹空港</option>
+									<option value="KIX">関西国際空港</option>
+									<option value="UKB">神戸空港</option>
+									<option value="SHM">南紀白浜空港</option>
+									<option value="TJH">但馬空港</option>
+									<option disabled="disabled" value="ID07">■■■■■中国■■■■■</option>
+									<option value="TTJ">鳥取空港</option>
+									<option value="YGJ">米子空港</option>
+									<option value="IZO">出雲空港</option>
+									<option value="HIJ">広島空港</option>
+									<option value="HIW">広島西空港</option>
+									<option value="OKI">隠岐空港</option>
+									<option value="OKJ">岡山空港</option>
+									<option value="UBJ">山口宇部空港</option>
+									<option value="IWJ">萩・石見空港</option>
+									<option value="IWK">岩国空港</option>
+									<option disabled="disabled" value="ID08">■■■■■四国■■■■■</option>
+									<option value="TKS">徳島空港</option>
+									<option value="TAK">高松空港</option>
+									<option value="MYJ">松山空港</option>
+									<option value="KCZ">高知龍馬空港</option>
+									<option disabled="disabled" value="ID09">■■■■■九州■■■■■</option>
+									<option value="FUK">福岡空港</option>
+									<option value="KKJ">北九州空港</option>
+									<option value="HSG">佐賀空港</option>
+									<option value="NGS">長崎空港</option>
+									<option value="IKI">壱岐空港</option>
+									<option value="FUJ">五島福江空港</option>
+									<option value="TSJ">対馬空港</option>
+									<option value="KMJ">熊本空港</option>
+									<option value="OIT">大分空港</option>
+									<option value="KMI">宮崎空港</option>
+									<option value="KOJ">鹿児島空港</option>
+									<option value="ASJ">奄美大島空港</option>
+									<option value="OKE">沖永良部空港</option>
+									<option value="KKX">喜界島空港</option>
+									<option value="TNE">種子島空港</option>
+									<option value="TKN">徳之島空港</option>
+									<option value="KUM">屋久島空港</option>
+									<option value="RNJ">与論空港</option>
+									<option disabled="disabled" value="ID10">■■■■■沖縄■■■■■</option>
+									<option value="OKA">那覇空港</option>
+									<option value="AGJ">粟国空港</option>
+									<option value="ISG">石垣空港</option>
+									<option value="KTD">北大東空港</option>
+									<option value="UEO">久米島空港</option>
+									<option value="KJP">慶良間空港</option>
+									<option value="TRA">多良間空港</option>
+									<option value="HTR">波照間空港</option>
+									<option value="MMD">南大東空港</option>
+									<option value="MMY">宮古空港</option>
+									<option value="SHI">下地島空港</option>
+									<option value="OGN">与那国空港</option>
+								</select>
+							</div>
+						</div>
+						<div class="tourlist-menu date-box">
+							<p>チェックイン日</p>
+							<br>
+							<label>
+								<input type="text" id="checkin-panel2" class="checkin">
+							</label>
+						</div>
+						<div class="tourlist-menu nights-box">
+							<p>泊数</p>
+							<div class="tourlist-menu-body select">
+								<select class="" id="days2" name="days">
+									<option value="2">1泊</option>
+									<option value="3">2泊</option>
+									<option value="4">3泊</option>
+									<option value="5">4泊</option>
+									<option value="6">5泊</option>
+								</select>
+							</div>
+						</div>
+						<div class="tourlist-menu number-box">
+							<p>1室の人数</p>
+							<div class="tourlist-menu-body select-arrow inputholder select">
+								<select class="tourlist-menu-person-number" id="dpPerson2" name="dpPerson">
+									<option value="1">1人</option>
+									<option value="2" selected="selected">2人</option>
+									<option value="3">3人</option>
+									<option value="4">4人</option>
+									<option value="5">5人</option>
+								</select>
+							</div>
+						</div>
+						<div class="btn_submit">
+							<label><input type="submit" value="この条件で検索"></label>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="message-wrapper">
+			<div class="container">
+				<div class="message">
+					<p>"おかげさまで30周年"<br>これまでの感謝の気持ちをこめて、<br>沖縄ならではのゆったりとした贅沢なひと時をご提供いたします。</p>
+				</div>
+				<div class="message-img">
+					<div class="special-left">
+						<div class="gold30logo">
+							<img src="./images/toppageimg/gold30logo.png" alt="30周年トップロゴ">
+						</div>
+						<div class="special-btn">
+							<a href="#">MORE</a>
+						</div>
+					</div>
+					<div class="special-right">
+						<img class="planimg" src="./images/toppageimg/specialplanimg.jpg" alt="スペシャルプラン">
+						<p class="plantext">30周年特別プラン</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="pickup-wrapper">
+			<div class="container">
+				<div class="wrapper-heading">
+					<h2>おすすめ情報</h2>
+				</div>
+				<div class="pickup-contents">
+					<div class="p-contents">
+						<a href="#"><img src="./images/toppageimg/membership.jpg" alt="新メンバーシップ誕生">
+							<p class="p-contents-text">新メンバーシップ誕生</p>
+						</a>
+					</div>
+					<div class="p-contents">
+						<a href="#"><img src="./images/toppageimg/nosmoke.jpg" alt="喫煙に関するご案内">
+							<p class="p-contents-text">喫煙に関するご案内</p>
+						</a>
+					</div>
+					<div class="p-contents">
+						<a href="#"><img src="./images/toppageimg/dolphinetour.jpg" alt="ご宿泊者様限定！イルカツアー開催">
+							<p class="p-contents-text">ご宿泊者様限定！<br>イルカツアー開催</p>
+						</a>
+					</div>
+					<div class="p-contents">
+						<a href="#"><img src="./images/toppageimg/anniversaryplan.jpg" alt="アニバーサリープランで特別な１日を">
+							<p class="p-contents-text">アニバーサリープランで<br>特別な１日を</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="info-wrapper">
+			<div class="container">
+				<div class="wrapper-heading">
+					<h2>お知らせ</h2>
+				</div>
+				<div class="info">
+					<ul>
+						<li>
+							<div class="day">2020-05-05</div>
+							<div class="label"> [ レストラン ]</div>
+							<div class="text"><a href="#">営業時間変更のお知らせ</a></div>
+						</li>
+						<li>
+							<div class="day">2020-04-01</div>
+							<div class="label">[ ご案内 ]</div>
+							<div class="text"><a href="#">全館禁煙のお知らせ</a></div>
+						</li>
+						<li>
+							<div class="day">2020-03-01</div>
+							<div class="label">[ ウエディング ]</div>
+							<div class="text"><a href="#">リニューアルオープンのお知らせ</a></div>
+						</li>
+						<li>
+							<div class="day">2020-02-05</div>
+							<div class="label">[ 宿泊 ]</div>
+							<div class="text"><a href="#">レディースプランご用意のお知らせ</a></div>
+						</li>
+					</ul>
+					<div class="info-btn">
+						<div class="more-btn">
+							<a href="#"><b>MORE</b></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="introduce-wrapper">
+			<div class="container">
+				<div class="contents">
+					<div class="contents-detail">
+						<div class="contents-text">
+							<h4>海を眺めて過ごす贅沢な空間</h4>
+							<p>室内から眺める大海原の美しさを楽しんでいただけるよう、シンプルなお部屋に仕上げました。</p>
+							<div class="introduce-btn">
+								<a href="#"><b>客室紹介</b></a>
+							</div>
+						</div>
+						<div class="introduce-img">
+							<img src="./images/toppageimg/room.jpg" alt="海を眺めて過ごす贅沢な空間">
+						</div>
+					</div>
+				</div>
+				<div class="contents">
+					<div class="contents-detail">
+						<div class="introduce-img">
+							<img src="./images/toppageimg/restaurant.jpg" alt="リゾートステイを彩る多彩なレストラン">
+						</div>
+						<div class="contents-text">
+							<h4>リゾートステイを彩る多彩なレストラン</h4>
+							<p>ホテル自慢の季節のお料理をスタイリッシュかつカジュアルな空間でお楽しみいただけます。</p>
+							<div class="introduce-btn">
+								<a href="#"><b>レストラン一覧</b></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="contents">
+					<div class="contents-detail">
+						<div class="contents-text">
+							<h4>沖縄の空気に包まれながら、心身ともに癒やされる空間</h4>
+							<p>沖縄素材を取り入れたボディケアをはじめ、お客様のコンディションに合わせたリラクゼーションをご提供いたします。</p>
+							<div class="introduce-btn">
+								<a href="#"><b>リラクゼーション</b></a>
+							</div>
+						</div>
+						<div class="introduce-img">
+							<img src="./images/toppageimg/relaxation.jpg" alt="沖縄の空気に包まれながら、心身ともに癒やされる空間">
+						</div>
+					</div>
+				</div>	
+				<div class="contents">
+					<div class="contents-detail">
+						<div class="introduce-img">
+							<img src="./images/toppageimg/wedding.jpg" alt="特別な時間を特別な場所でかなえるリゾートウエディング">
+						</div>
+						<div class="contents-text">
+							<h4>特別な時間を特別な場所でかなえるリゾートウエディング</h4>
+							<p>一面の広がるエメラルドグリーンを前にリゾートならではの開放感と気品に満ちた空間でおふたりの特別な一日が始まります。</p>
+							<div class="introduce-btn">
+								<a href="#"><b>挙式会場紹介</b></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<div id="access-wrapper">
+		<div class="wrapper-heading">
+			<h2>アクセス</h2>
+		</div>
+		<div class="access-info">
+			<div class="access">
+				<p class="access-text">那覇空港からリムジンバス・路線バス・高速バスでホテルまでお越しいただけます。</p>
+				<p class="adress">沖縄県那覇市〇〇1−1−1<br>tel : 888-888-8888
+				</p>
+				<div class="more-btn">
+					<a href="#"><b>MORE</b></a>
+				</div>
+			</div>
+			<div class="map">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28638.045464379866!2d127.67943510329434!3d26.20462478999568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34e56bd6e046d289%3A0x345ffb669fadbd4f!2z6YKj6KaH5biC5b255omA!5e0!3m2!1sja!2sjp!4v1592116264567!5m2!1sja!2sjp"
+					width="650" height="500" style="border:0;" allowfullscreen="" aria-hidden="false"
+					tabindex="0"></iframe>
+				<a href="https://goo.gl/maps/tAaVNw3cSW92MTdXA">
+					<p>Google Map<i class="fa fa-map-marker-alt"></i></p>
+				</a>
+			</div>
+		</div>
+	</div>
+	</main>
+	<footer>
+		<div id="footer-wrapper">
+			<div class="footer-01">
+				<div id="footer-hotel-info">
+					<p class="logo footer-logo">MARINA HILLS HOTEL</p>
+					<p>〒111−1111 沖縄県那覇市〇〇1−1−1</p>
+					<p>tel : 888-888-8888</p>
+					<div class="footer-logo">
+						<img src="./images/toppageimg/gold30logo.png" alt="30周年ロゴ">
+					</div>
+					<div id="SNS-link">
+						<a class="btn facebook" href="#">
+							<span class="fa fa-facebook-square"></span>
+						</a>
+						<a class="btn instagram" href="#">
+							<span class="fab fa-instagram-square"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="footer-02">
+				<ul class="footer-navigation">
+					<li><a href="#">宿泊</a>
+						<ul class="sub-navigation">
+							<li><a href="#">宿泊プラン</a></li>
+							<li><a href="#">客室紹介</a></li>
+							<li><a href="#">朝食のご案内</a></li>
+							<li><a href="#">夕食のご案内</a></li>
+							<li><a href="#">宿泊者向けサービス</a></li>
+						</ul>
+					</li>
+					<li><a href="#">レストラン＆バー</a>
+						<ul class="sub-navigation">
+							<li><a href="#">フェア・特集</a></li>
+							<li><a href="#">レストラン&バー　一覧</a></li>
+							<li><a href="#">個室のご案内</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="footer-03">
+				<ul class="footer-navigation">
+					<li><a href="#">宴会</a></li>
+					<li><a href="#">リラクゼーション</a></li>
+					<li><a href="#">アクセス</a></li>
+				</ul>
+			</div>
+			<div class="footer-04">
+				<ul class="asidefooter">
+					<li><a href="#">会員のご案内</a></li>
+					<li><a href="#">よくある質問</a></li>
+					<li><a href="#">ホテル概要</a></li>
+					<li><a href="#">会社概要</a></li>
+					<li><a href="#">採用情報</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+	<script src="./js/jQuery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="./js/slick.min.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+
+</html>
